@@ -1,6 +1,6 @@
 {
-  "projectName": "next-saas-starter",
-  "projectOwner": "Blazity",
+  "projectName": "adativise-landing",
+  "projectOwner": "Adaplex",
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": [
@@ -11,52 +11,14 @@
   "commitConvention": "none",
   "contributors": [
     {
-      "login": "bmstefanski",
-      "name": "Bart Stefanski",
+      "login": "tournamatic",
+      "name": "Dan Bonab",
       "avatar_url": "https://avatars.githubusercontent.com/u/28964599?v=4",
-      "profile": "https://bstefanski.com/",
+      "profile": "https://tournamatic.com/",
       "contributions": [
         "code"
-      ]
-    },
-    {
-      "login": "ilasota",
-      "name": "Igor Lasota",
-      "avatar_url": "https://avatars.githubusercontent.com/u/34578189?v=4",
-      "profile": "https://github.com/ilasota",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
-      "login": "jbryn",
-      "name": "Jan Bryński",
-      "avatar_url": "https://avatars.githubusercontent.com/u/52970664?v=4",
-      "profile": "https://github.com/jbryn",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
-      "login": "logan-anderson",
-      "name": "Logan Anderson",
-      "avatar_url": "https://avatars.githubusercontent.com/u/43075109?v=4",
-      "profile": "https://www.logana.dev/",
-      "contributions": [
-        "code",
-        "doc",
-        "mentoring"
-      ]
-    },
-    {
-      "login": "fdukat",
-      "name": "Filip Dukat",
-      "avatar_url": "https://avatars.githubusercontent.com/u/87642690?v=4",
-      "profile": "https://github.com/fdukat",
-      "contributions": [
-        "doc"
       ]
     }
   ],
-  "contributorsPerLine": 7
+  "contributorsPerLine": 1
 }

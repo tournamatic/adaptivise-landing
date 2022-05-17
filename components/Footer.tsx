@@ -14,6 +14,8 @@ const footerItems: FooterItems = [
     title: 'Company',
     items: [
       { title: 'Privacy Policy', href: '/privacy-policy' },
+      { title: 'Terms of Use', href: '/terms-of-use' },
+      { title: 'GDPR', href: '/gdpr-policy' },
       { title: 'Cookies Policy', href: '/cookies-policy' },
     ],
   },

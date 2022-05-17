@@ -1,6 +1,6 @@
 export const EnvVars = {
-  SITE_NAME: 'My SaaS Startup',
-  OG_IMAGES_URL: 'https://next-saas-starter-ashy.vercel.app/og-images/',
-  URL: 'https://next-saas-starter-ashy.vercel.app/',
-  MAILCHIMP_SUBSCRIBE_URL: 'https://bstefanski.us5.list-manage.com/subscribe/post?u=66b4c22d5c726ae22da1dcb2e&id=679fb0eec9',
+  SITE_NAME: 'Adaptivise',
+  OG_IMAGES_URL: 'https://adaptivise-landing.vercel.app/og-images/',
+  URL: 'https://adaptivise-landing.vercel.app/',
+  MAILCHIMP_SUBSCRIBE_URL: 'https://adaplex.us13.list-manage.com/subscribe?u=63fe819099ee2a59cf5a5ac63&id=708c17916c',
 };

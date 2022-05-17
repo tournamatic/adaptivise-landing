@@ -7,109 +7,122 @@ export default function ContactPage() {
     <Page title="Cookies policy">
       <CookiesPolicyContainer>
         <RichText>
-          <p>
-            Deserunt culpa consequat non nostrud esse cillum pariatur velit consequat. Est fugiat voluptate deserunt sint culpa sint.
-            Laboris irure veniam quis ea voluptate. Nulla ad proident ex excepteur. Sunt sint ex laborum dolor quis magna aliquip qui amet
-            nulla. Laboris proident aute exercitation irure esse id eu occaecat ad ipsum est. Dolor cillum Lorem occaecat enim veniam
-            ullamco cupidatat qui dolore exercitation Lorem eu quis magna. Esse cillum aliqua et laborum eu dolore consectetur. Exercitation
-            id non quis ex qui in dolore est est proident. Laborum nisi commodo fugiat nulla et magna veniam aliquip. Aliqua duis non
-            nostrud ea velit incididunt. Laboris nostrud incididunt laborum enim eu dolor. Culpa anim sit sit ea. Labore laborum et aute ex
-            est est excepteur labore voluptate deserunt. Amet ea laboris ea culpa dolor laborum consequat aliquip reprehenderit voluptate
-            non laboris ipsum. Quis excepteur pariatur est enim duis consectetur nulla cupidatat ipsum dolor nisi ipsum. Dolore dolor
-            nostrud aute dolore. Excepteur reprehenderit aliquip amet pariatur excepteur. Aliqua commodo nulla dolor ex nisi duis
-            reprehenderit sint aliqua in minim. Lorem amet quis non veniam ut reprehenderit aliquip mollit do ullamco pariatur.
-          </p>
-          <br />
-          <strong>
-            Reprehenderit aliquip minim commodo magna occaecat dolore labore mollit mollit do esse deserunt. Aliquip eu reprehenderit aute{' '}
-          </strong>
-          <ul>
-            <li>
-              Ipsum cillum amet aliqua laboris ut excepteur enim laborum veniam officia officia esse. Anim et voluptate qui quis cillum
-              labore ipsum incididunt consequat est ea exercitation et commodo. Consequat consequat amet officia sit non id occaecat
-              occaecat duis irure.
-            </li>
-            <li>Nostrud dolor pariatur dolore Lorem in aliqua sunt aliqua excepteur laboris exercitation proident officia.</li>
-            <li>Ut et voluptate consequat elit amet minim.</li>
-            <li>Reprehenderit et consequat ea minim est proident eu incididunt non laboris proident culpa consequat sint.</li>
-          </ul>
+        <div className="privacy-policy">
+          <section className="full-width copyright-container">
+            <div className="container-fluid">
+              <section className="policy-info excellence-extra-light">
+                <div className="content-section">
+                  <p className="marB30">Adaptivise ("us", "we", or "our") understand that your privacy is important to you and are committed to being transparent about the technologies it uses. This Cookie Policy ("Cookie Policy") explains how and why cookies ( "Cookies") may be stored on and accessed from your device when you use or visit any website or app that posts a link to this Policy (collectively, our "Sites"). Please read this Cookie Policy carefully before using our Site. This Cookie Policy should be read together with our Privacy Policy and our Terms of Use.</p>
+                  <p className="marB30"><strong>By clicking "Accept" on the Cookie banner, you give us your consent to store and access Cookies and Other Tracking Technologies as described in this Cookie Policy.</strong></p>
+                  <p>This Cookie Policy should be read together with our Privacy Policy (<strong><a href="/privacy-policy">Privacy Statement</a></strong> or <strong><a href="/gdpr-policy">Privacy Statement for GDPR</a></strong>) and <strong><a href="/terms-of-use">our Terms of Use</a></strong>.</p>
+                </div>
+              </section>
+            </div>
 
-          <table>
-            <tr>
-              <th>Column 1</th>
-              <th>Column 2</th>
-              <th>Column 3</th>
-              <th>Column 4</th>
-            </tr>
-            <tr>
-              <td>Dolor do culpa excepteur proident anim duis deserunt nulla dolor et tempor.</td>
-              <td>Eu enim qui ea nostrud minim.</td>
-              <td>Proident officia velit ut in est culpa non adipisicing excepteur exercitation aliqua.</td>
-              <td>Duis proident adipisicing magna aute sint adipisicing sit deserunt minim eu.</td>
-            </tr>
-            <tr>
-              <td>Nisi cillum culpa adipisicing cillum.</td>
-              <td>Proident nulla cillum aute occaecat mollit labore.</td>
-              <td>Non ex eiusmod tempor cupidatat consequat anim et veniam nisi sint fugiat pariatur irure.</td>
-              <td>Consectetur nisi culpa non ex ipsum deserunt magna est est magna.</td>
-            </tr>
-            <tr>
-              <td>Officia laboris anim voluptate incididunt mollit mollit.</td>
-              <td>Adipisicing est consectetur id esse nostrud culpa non exercitation cupidatat pariatur dolore amet.</td>
-              <td>Dolor ex est ad ut adipisicing irure nulla esse aliqua nisi ipsum id aliqua.</td>
-              <td>Proident anim consequat enim sit sint pariatur.</td>
-            </tr>
-            <tr>
-              <td>Sint anim sint deserunt in elit ad Lorem dolore tempor.</td>
-              <td>Consequat nostrud irure anim do ex dolor amet ea dolore incididunt esse et cupidatat.</td>
-              <td>Eu nostrud occaecat incididunt deserunt Lorem ad Lorem elit.</td>
-              <td>Id ullamco in ad adipisicing magna elit ea minim sunt esse adipisicing.</td>
-            </tr>
-            <tr>
-              <td>Ea adipisicing ut nulla aute dolore quis in reprehenderit qui ipsum Lorem magna.</td>
-              <td>Irure ex dolore consequat mollit Lorem nostrud velit irure.</td>
-              <td>Dolore minim ad esse occaecat.</td>
-              <td>Qui id tempor ut culpa.</td>
-            </tr>
-            <tr>
-              <td>Ea ut esse non dolor do cupidatat.</td>
-              <td>Deserunt pariatur minim nisi elit ipsum officia irure id culpa ipsum.</td>
-              <td>Ea cillum voluptate consectetur et reprehenderit mollit ut excepteur exercitation do fugiat duis qui.</td>
-              <td>Id laborum officia aliqua ut nulla mollit.</td>
-            </tr>
-            <tr>
-              <td>Laborum et et sint ad incididunt amet aliqua commodo esse proident.</td>
-              <td>Velit aute proident aliqua consequat minim laborum reprehenderit reprehenderit eiusmod amet in aute.</td>
-              <td>Adipisicing adipisicing consequat incididunt officia in eu minim non cupidatat nulla nostrud sint.</td>
-              <td>Excepteur minim ea ex commodo nisi aute nostrud cupidatat consectetur.</td>
-            </tr>
-            <tr>
-              <td>Anim elit aliquip elit mollit pariatur consectetur commodo.</td>
-              <td>Consequat cupidatat sit sit quis labore culpa in duis duis amet elit.</td>
-              <td>Laborum Lorem pariatur id adipisicing minim.</td>
-              <td>Deserunt Lorem do id ea aliquip sunt.</td>
-            </tr>
-            <tr>
-              <td>Laborum aute laborum elit adipisicing velit commodo occaecat amet laborum.</td>
-              <td>Dolor voluptate duis elit id.</td>
-              <td>Excepteur sunt duis id officia id reprehenderit enim exercitation dolor.</td>
-              <td>Et excepteur duis adipisicing laboris labore adipisicing id dolor adipisicing exercitation eu nisi.</td>
-            </tr>
-            <tr>
-              <td>Esse consequat commodo irure elit nostrud esse ut magna commodo ipsum.</td>
-              <td>Exercitation exercitation ipsum qui aute ad commodo exercitation aliquip nisi aute Lorem in nulla.</td>
-              <td>Sint cillum esse quis mollit fugiat incididunt officia adipisicing do sint eu.</td>
-              <td>Consectetur aute ad aliquip eu Lorem proident irure aliqua aliqua officia reprehenderit reprehenderit amet.</td>
-            </tr>
-            <tr>
-              <td>Est Lorem exercitation eiusmod sit et.</td>
-              <td>Quis aliqua irure dolor do reprehenderit non id excepteur voluptate eiusmod veniam nostrud et elit.</td>
-              <td>Minim id sit officia consectetur irure id deserunt excepteur eu.</td>
-              <td>
-                Reprehenderit pariatur reprehenderit voluptate cillum minim tempor elit sint eiusmod ullamco id incididunt officia dolore.
-              </td>
-            </tr>
-          </table>
+            <div className="container-fluid">
+              <section className="policy-info excellence-extra-light">
+                <div className="row">
+                  <h3 className="col-xs-12">What are Cookies?</h3>
+                </div>
+                <div className="content-section">
+                  <p className="marB30">Cookies are small text files, often including unique identifiers, that are sent by web servers to web browsers, and which may then be sent back to the server each time the browser requests a page from the server.</p>
+                  <p className="marB30">Cookies are very useful and enable an internet site to recognize you, log when you visit a particular page, provide a secure connection to a website and enhance your user experience by: improving your browsing comfort, and/ or adapting the content of a page to your areas of interest.</p>
+                  <p>To find more information, please go to <strong><a href="http://www.allaboutcookies.org/" target="_blank">www.allaboutcookies.org</a></strong> if you are located in in the United States. If you are located in Europe, please go to <strong><a href="http://www.youronlinechoices.eu/" target="_blank">www.youronlinechoices.eu</a></strong>.</p>
+                </div>
+              </section>
+            </div>
+
+            <div className="container-fluid">
+              <section className="policy-info excellence-extra-light">
+                <div className="row">
+                  <h3 className="col-xs-12">How does our Site use Cookies?</h3>
+                </div>
+                <div className="content-section">
+                  <p>We may use information collected from our Cookies to identify user behavior and to serve content and offers based on your profile, and in order to enhance the convenience of the users of our Site.</p>
+                </div>
+              </section>
+            </div>
+
+            <div className="container-fluid">
+              <section className="policy-info excellence-extra-light">
+                <div className="row">
+                  <h3 className="col-xs-12">Information on the Types of Cookies that are used on our Site</h3>
+                </div>
+                <div className="content-section">
+                  <p>We have provided details of the types of Cookies that are used on our Site as well as other relevant and useful information on the Cookies. You can also find more information on the Cookies when you click the pop-up window "[name of the pop-up banner]".</p>
+                </div>
+                    </section></div>
+                    
+                <div className="container-fluid">
+                    <section className="policy-info excellence-extra-light">
+                        <div className="row">
+                            <h3 className="col-xs-12">-Technical Cookies:</h3>
+                        </div>
+                        <div className="content-section">
+                            <p>These Cookies are necessary to enable you to move around our Site and use its features. These Cookies also allow our Site to remember your previous action within the same browsing session.</p>
+                        </div>
+                    </section>
+                </div>
+
+            <div className="container-fluid">
+              <section className="policy-info excellence-extra-light">
+                <div className="row">
+                  <h3 className="col-xs-12">-Analytical Cookies:</h3>
+                </div>
+                <div className="content-section">
+                  <p>These Cookies are used by us or third-party service providers to analyze how our Sites are used and how they are performing. For example, we use cookies to know which country you are in when you request a service to help base the contents on your location. We also use some Cookies from Google Analytics, SiTest and Visitor Queue to obtain web analytics and intelligence about our Site. These tools use programming code to collect information about your interaction with our Site, such as the pages you visit, the links you click on and how long you are on our Site. These tools do not store any personal identifiable information.</p>
+                </div>
+              </section>
+            </div>
+
+            <div className="container-fluid">
+              <section className="policy-info excellence-extra-light">
+                <div className="row">
+                  <h3 className="col-xs-12">-Functionality Cookies:</h3>
+                </div>
+                <div className="content-section">
+                  <p>These Cookies allow our Site to remember choices you make when you visit our Site in order to provide enhanced, more personalized features to you. The types of information collected by Functionality Cookies are, language preference, and the region you are located in.</p>
+                </div>
+              </section>
+            </div>
+
+            <div className="container-fluid">
+              <section className="policy-info excellence-extra-light">
+                <div className="row">
+                  <h3 className="col-xs-12">-Advertising and Retargeting Cookies:</h3>
+                </div>
+                <div className="content-section">
+                  <p>These Cookies save information from your browsing history in order to record your interests and your browsing path on our Site. We may use advertising and targeting cookies for retargeting, which enables our advertising partners to target advertising to you on other websites, based on your visit to our Site. Without these Cookies, online advertisements you encounter will be less relevant to you and your interests.</p>
+                </div>
+              </section>
+            </div>
+
+            <div className="container-fluid">
+              <section className="policy-info excellence-extra-light">
+                <div className="row">
+                  <h3 className="col-xs-12">How do I refuse or withdraw my consent to the use of cookies?</h3>
+                </div>
+                <div className="content-section">
+                  <p className="marB30">If you do not want Cookies to be placed on your device, we suggest you to set your preferences regarding Cookies. By clicking "Cookie Preferences" on the bottom of each webpage, you can select the types of Cookies our Site uses. You can change your preferences at any time; you can also withdraw the consent you have previously given to us.</p>
+                  <p className="marB30">If you wish to remove previously-stored Cookies, you can manually delete the Cookies at any time. However, this will not prevent our Site from placing further Cookies on your device unless and until you adjust your "Cookie Preferences" choice as described above.</p>
+                </div>
+            </section></div>
+
+            <div className="container-fluid">
+              <section className="policy-info excellence-extra-light">
+                <div className="row">
+                  <h3 className="col-xs-12">Contact Details</h3>
+                </div>
+                <div className="content-section">
+                  <p className="marB30">If you have any other questions or comments about our Cookie Policy, please <strong><a href="/contacts">contact us</a></strong></p>
+                  <p>Adaptivise</p>
+                  <p>Public Relations Department</p>
+                  <p style={{fontSize: 16}}>403-505 Cook Street, Victoria, BC, Canada</p>          
+                </div>
+              </section>
+            </div>          
+            </section>
+          </div>
         </RichText>
       </CookiesPolicyContainer>
     </Page>

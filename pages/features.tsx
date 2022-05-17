@@ -65,7 +65,7 @@ const FEATURES = [
 
 export default function FeaturesPage() {
   return (
-    <Page title="Features" description="Elit aute do nisi Lorem id ea culpa sint duis eu tempor dolore elit.">
+    <Page title="Values" description="Adaptivise is a one-stop-shop for financial planners to openly collaborate with their clients to help them overcome their concerns and achieve their goals.">
       <Wrapper>
         <SectionTitle>Check out this quick introduction</SectionTitle>
         <YoutubeVideo url="https://www.youtube.com/watch?v=BggrpKfqh1c" />
