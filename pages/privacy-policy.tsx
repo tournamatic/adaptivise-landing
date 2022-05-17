@@ -1,3 +1,4 @@
+import NextLink from 'next/link';
 import styled from 'styled-components';
 import Page from 'components/Page';
 import RichText from 'components/RichText';
@@ -12,13 +13,13 @@ export default function ContactPage() {
           <div className="container-fluid">
           <section className="policy-info excellence-extra-light">
           <div className="row">
-          <h3 className="col-xs-12"> Adaptivise's Personal Information Protection Policy </h3>
+          <h3 className="col-xs-12"> Adaptivise&apos;s Personal Information Protection Policy </h3>
           </div>
           <div className="content-section">
-          <p>Adaptivise recognizes the importance of personal information and ensures the protection and safeguarding of its customers’ personal information as a fundamental principle of its business and its responsibility to society. Accordingly, Adaptivise has established the Personal Information Protection Policy described below and ensures that all its officers, employees, and business partners thoroughly understand and fully comply with the Policy.</p>
+          <p>Adaptivise recognizes the importance of personal information and ensures the protection and safeguarding of its customers&apos; personal information as a fundamental principle of its business and its responsibility to society. Accordingly, Adaptivise has established the Personal Information Protection Policy described below and ensures that all its officers, employees, and business partners thoroughly understand and fully comply with the Policy.</p>
           <p>&nbsp;</p>
           <p>
-          This Privacy Statement is not for natural persons who are entitled under the General Data Protection Regulation (GDPR). If you are a customer who is subject to the GDPR, please refer to <strong><a href="/gdpr-policy">Privacy Statement for GDPR</a></strong>.
+          This Privacy Statement is not for natural persons who are entitled under the General Data Protection Regulation (GDPR). If you are a customer who is subject to the GDPR, please refer to <strong><NextLink href="/gdpr-policy">Privacy Statement for GDPR</NextLink></strong>.
           </p>
           </div>
           </section>
@@ -37,13 +38,13 @@ export default function ContactPage() {
                   <p style={{marginLeft: 40, fontSize: 16}}>2. Personal information collected by Adaptivise shall not be provided to third parties without prior express consent of the customers, except as required by law or regulation.</p>
                   </li>
                   <li>
-                  <p style={{marginLeft: 40, fontSize: 16}}>3. Adaptivise may entrust customers’ personal information with authorized third parties. In all such cases, Adaptivise shall select the recipient with great care from among those parties that have established a sufficient level of protection of the personal information, and make necessary supervision or otherwise ensure, through a contract,etc. stipulating the level of protection to be observed, that the recipient manages the information properly.</p>
+                  <p style={{marginLeft: 40, fontSize: 16}}>3. Adaptivise may entrust customers&apos; personal information with authorized third parties. In all such cases, Adaptivise shall select the recipient with great care from among those parties that have established a sufficient level of protection of the personal information, and make necessary supervision or otherwise ensure, through a contract,etc. stipulating the level of protection to be observed, that the recipient manages the information properly.</p>
                   </li>
               </ul>
               </li>
               <li>
               <p style={{fontSize: 16}}>2. Disclosure, Correction, Discontinuance of Use, etc. of Personal Information</p>
-              <p style={{fontSize: 16}}>Adaptivise shall accommodate requests for disclosure, correction, discontinuance of use, etc. of customers’ personal information promptly within a reasonable scope.</p>
+              <p style={{fontSize: 16}}>Adaptivise shall accommodate requests for disclosure, correction, discontinuance of use, etc. of customers&apos; personal information promptly within a reasonable scope.</p>
               </li>
               <li>
               <p style={{fontSize: 16}}>3. Implementation of Security Measures</p>
@@ -52,7 +53,7 @@ export default function ContactPage() {
               </li>
               <li>
               <p style={{fontSize: 16}}>4. Observance of Laws, Regulations and Other Norms Relating to Personal Information</p>
-              <p style={{fontSize: 16}}>With respect to the observance of laws, regulations, and other norms relating to personal information, Adaptivise’s officers, employees, and business partners who handle personal information comply with the laws, regulations, and guidelines relating to the protection of personal information and the privacy of communication.</p>
+              <p style={{fontSize: 16}}>With respect to the observance of laws, regulations, and other norms relating to personal information, Adaptivise&apos;s officers, employees, and business partners who handle personal information comply with the laws, regulations, and guidelines relating to the protection of personal information and the privacy of communication.</p>
               </li>
               <li>
               <p style={{fontSize: 16}}>5. Continuous improvements to this Personal Information Protection Policy and In-house Rules and Regulations</p>
@@ -61,7 +62,7 @@ export default function ContactPage() {
               </li>
               <li>
               <p style={{fontSize: 16}}>6. Inquiries as to Personal Information</p>
-              <p style={{fontSize: 16}}>Adaptivise will make every effort to respond to inquiries promptly within a reasonable scope. Please contact Adaptivise’s customer service.</p>
+              <p style={{fontSize: 16}}>Adaptivise will make every effort to respond to inquiries promptly within a reasonable scope. Please contact Adaptivise&apos;s customer service.</p>
               </li>
           </ul>
           </div>

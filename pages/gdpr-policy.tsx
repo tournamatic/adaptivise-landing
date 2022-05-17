@@ -1,3 +1,4 @@
+import NextLink from 'next/link';
 import styled from 'styled-components';
 import Page from 'components/Page';
 import RichText from 'components/RichText';
@@ -12,12 +13,12 @@ export default function ContactPage() {
           <div className="container-fluid">
           <section className="policy-info excellence-extra-light">
           <div className="row">
-          <h3 className="col-xs-12"> Adaptivise's Personal Information Protection Policy </h3>
+          <h3 className="col-xs-12"> Adaptivise&apos;s Personal Information Protection Policy </h3>
           </div>
           <div className="content-section">
-          <p>Adaptivise (“Adaptivise”, “we”, “us” or “our”) recognizes the importance of personal information and ensures the protection and safeguarding of our customers' personal information as a fundamental principle of its business and its responsibility to society. Accordingly, Adaptivise has established the Personal Information Protection Policy (“Privacy Statement”) described below and ensures that all its officers, employees, and business partners thoroughly understand and fully comply with the Policy. By reading and manifesting your intention to consent to this Privacy Statement, you consent to our use and disclosure of your information and agree that we may collect, use and transfer your Personal Information in accordance therewith. You are entitled to withdraw your consent given in this form at any time by sending us notice of withdrawal to the contact information stated under this Privacy Statement [7. Inquiries as to Personal Information]. If you have any questions regarding this consent, please contact us through information stated under this Privacy Statement. </p>
+          <p>Adaptivise (&quot;Adaptivise&quot;, &quot;we&quot;, &quot;us&quot; or &quot;our&quot;) recognizes the importance of personal information and ensures the protection and safeguarding of our customers&apos; personal information as a fundamental principle of its business and its responsibility to society. Accordingly, Adaptivise has established the Personal Information Protection Policy (&quot;Privacy Statement&quot;) described below and ensures that all its officers, employees, and business partners thoroughly understand and fully comply with the Policy. By reading and manifesting your intention to consent to this Privacy Statement, you consent to our use and disclosure of your information and agree that we may collect, use and transfer your Personal Information in accordance therewith. You are entitled to withdraw your consent given in this form at any time by sending us notice of withdrawal to the contact information stated under this Privacy Statement [7. Inquiries as to Personal Information]. If you have any questions regarding this consent, please contact us through information stated under this Privacy Statement. </p>
           <p>&nbsp;</p>
-          <p>This Privacy Statement is for natural persons who are entitled under the General Data Protection Regulation (GDPR). If you are a customer who is not subject to the GDPR, please refer to <strong><a href="/privacy-policy">Privacy Policy</a></strong>
+          <p>This Privacy Statement is for natural persons who are entitled under the General Data Protection Regulation (GDPR). If you are a customer who is not subject to the GDPR, please refer to <strong><NextLink href="/privacy-policy">Privacy Policy</NextLink></strong>
           </p>
           </div>
           </section>
@@ -33,11 +34,11 @@ export default function ContactPage() {
               <ul>
                   <li>
                   <span>(a)</span>
-                  <p>'Personal Information' means any data relating to an identified or identifiable natural person, including but not limited to your names, addresses, birth dates, telephone numbers, e-mail addresses, user IDs, IP addresses, web beacons and other online identifiers.</p>
+                  <p>&apos;Personal Information&apos; means any data relating to an identified or identifiable natural person, including but not limited to your names, addresses, birth dates, telephone numbers, e-mail addresses, user IDs, IP addresses, web beacons and other online identifiers.</p>
                   </li>
                   <li>
                   <span>(b)</span>
-                  <p>'Processing' means any operation or set of operations which is performed on Personal Information or on sets of Personal Information, whether or not by automated means, such as collection, recording, organisation, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction.</p>
+                  <p>&apos;Processing&apos; means any operation or set of operations which is performed on Personal Information or on sets of Personal Information, whether or not by automated means, such as collection, recording, organisation, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction.</p>
                   <ul style={{marginLeft: 40}}>
                       <li>
                       <span>(1)</span>
@@ -52,11 +53,11 @@ export default function ContactPage() {
                       </p>
                       <p>&nbsp;</p>
                       <p>
-                      -Adaptivise will process Data subjects' Personal Information collected from the contact form on our Site in order to respond to your inquiries, questions, and/or other requests.
+                      -Adaptivise will process Data subjects&apos; Personal Information collected from the contact form on our Site in order to respond to your inquiries, questions, and/or other requests.
                       </p>
                       <p>&nbsp;</p>
                       <p>
-                      -Adaptivise may process Data subjects' Personal Information collected by Cookies for automated decision-making including profiling in order to provide the services which may be of particular interest to you and recognize your computer when visiting the website for improving the website's usability.For more information please refer to <strong><a href="/cookies-policy">the Cookies Policy</a></strong>.
+                      -Adaptivise may process Data subjects&apos; Personal Information collected by Cookies for automated decision-making including profiling in order to provide the services which may be of particular interest to you and recognize your computer when visiting the website for improving the website&apos;s usability.For more information please refer to <strong><NextLink href="/cookies-policy">the Cookies Policy</NextLink></strong>.
                       </p>
                       <p>&nbsp;</p>
                       <p>
@@ -88,7 +89,7 @@ export default function ContactPage() {
                       <li>
                       <span>(4)</span>
                       <p>
-                      Adaptivise may entrust customers' personal information with authorized third parties.  In all such cases, Adaptivise shall select the recipient with great care from among those parties that have established a sufficient level of protection of the personal information, and make necessary supervision or otherwise ensure, through a contract, etc. stipulating the level of protection to be observed, that the recipient manages the information properly.
+                      Adaptivise may entrust customers&apos; personal information with authorized third parties.  In all such cases, Adaptivise shall select the recipient with great care from among those parties that have established a sufficient level of protection of the personal information, and make necessary supervision or otherwise ensure, through a contract, etc. stipulating the level of protection to be observed, that the recipient manages the information properly.
                       </p>
                       </li>
                   </ul>
@@ -130,7 +131,7 @@ export default function ContactPage() {
               <li>
               <span>4.</span>
               <p className="policy-one">Observance of Laws, Regulations and Other Norms Relating to Personal Information</p>
-              <p>With respect to the observance of laws, regulations, and other norms relating to personal information, Adaptivise's officers, employees, and business partners who handle personal information comply with the laws, regulations, and guidelines relating to the protection of personal information and the privacy of communication.</p>
+              <p>With respect to the observance of laws, regulations, and other norms relating to personal information, Adaptivise&apos;s officers, employees, and business partners who handle personal information comply with the laws, regulations, and guidelines relating to the protection of personal information and the privacy of communication.</p>
               </li>
           </ul>
           <div>
@@ -188,7 +189,7 @@ export default function ContactPage() {
               <li>
               <span>8.</span>
               <p className="policy-one">Data Protection Officer</p>
-              <p>Adaptivise has appointed the data protection officer for you to contact if you have any questions or concerns about the Adaptivise's personal data policies or practices. The contact information are as follows:</p>
+              <p>Adaptivise has appointed the data protection officer for you to contact if you have any questions or concerns about the Adaptivise&apos;s personal data policies or practices. The contact information are as follows:</p>
               <p>&nbsp;</p>
               <p style={{fontSize: 16}}>E-MAIL : <strong>privacy at adaptivise.com</strong></p>
               <p>&nbsp;</p>

@@ -1,3 +1,4 @@
+import NextLink from 'next/link';
 import styled from 'styled-components';
 import Page from 'components/Page';
 import RichText from 'components/RichText';
@@ -12,9 +13,9 @@ export default function ContactPage() {
             <div className="container-fluid">
               <section className="policy-info excellence-extra-light">
                 <div className="content-section">
-                  <p className="marB30">Adaptivise ("us", "we", or "our") understand that your privacy is important to you and are committed to being transparent about the technologies it uses. This Cookie Policy ("Cookie Policy") explains how and why cookies ( "Cookies") may be stored on and accessed from your device when you use or visit any website or app that posts a link to this Policy (collectively, our "Sites"). Please read this Cookie Policy carefully before using our Site. This Cookie Policy should be read together with our Privacy Policy and our Terms of Use.</p>
-                  <p className="marB30"><strong>By clicking "Accept" on the Cookie banner, you give us your consent to store and access Cookies and Other Tracking Technologies as described in this Cookie Policy.</strong></p>
-                  <p>This Cookie Policy should be read together with our Privacy Policy (<strong><a href="/privacy-policy">Privacy Statement</a></strong> or <strong><a href="/gdpr-policy">Privacy Statement for GDPR</a></strong>) and <strong><a href="/terms-of-use">our Terms of Use</a></strong>.</p>
+                  <p className="marB30">Adaptivise (&quot;us&quot;, &quot;we&quot;, or &quot;our&quot;) understand that your privacy is important to you and are committed to being transparent about the technologies it uses. This Cookie Policy (&quot;Cookie Policy&quot;) explains how and why cookies ( &quot;Cookies&quot;) may be stored on and accessed from your device when you use or visit any website or app that posts a link to this Policy (collectively, our &quot;Sites&quot;). Please read this Cookie Policy carefully before using our Site. This Cookie Policy should be read together with our Privacy Policy and our Terms of Use.</p>
+                  <p className="marB30"><strong>By clicking &quot;Accept&quot; on the Cookie banner, you give us your consent to store and access Cookies and Other Tracking Technologies as described in this Cookie Policy.</strong></p>
+                  <p>This Cookie Policy should be read together with our Privacy Policy (<strong><NextLink href="/privacy-policy">Privacy Statement</NextLink></strong> or <strong><NextLink href="/gdpr-policy">Privacy Statement for GDPR</NextLink></strong>) and <strong><NextLink href="/terms-of-use">our Terms of Use</NextLink></strong>.</p>
                 </div>
               </section>
             </div>
@@ -27,7 +28,7 @@ export default function ContactPage() {
                 <div className="content-section">
                   <p className="marB30">Cookies are small text files, often including unique identifiers, that are sent by web servers to web browsers, and which may then be sent back to the server each time the browser requests a page from the server.</p>
                   <p className="marB30">Cookies are very useful and enable an internet site to recognize you, log when you visit a particular page, provide a secure connection to a website and enhance your user experience by: improving your browsing comfort, and/ or adapting the content of a page to your areas of interest.</p>
-                  <p>To find more information, please go to <strong><a href="http://www.allaboutcookies.org/" target="_blank">www.allaboutcookies.org</a></strong> if you are located in in the United States. If you are located in Europe, please go to <strong><a href="http://www.youronlinechoices.eu/" target="_blank">www.youronlinechoices.eu</a></strong>.</p>
+                  <p>To find more information, please go to <strong><NextLink href="http://www.allaboutcookies.org/">www.allaboutcookies.org</NextLink></strong> if you are located in in the United States. If you are located in Europe, please go to <strong><NextLink href="http://www.youronlinechoices.eu/">www.youronlinechoices.eu</NextLink></strong>.</p>
                 </div>
               </section>
             </div>
@@ -49,7 +50,7 @@ export default function ContactPage() {
                   <h3 className="col-xs-12">Information on the Types of Cookies that are used on our Site</h3>
                 </div>
                 <div className="content-section">
-                  <p>We have provided details of the types of Cookies that are used on our Site as well as other relevant and useful information on the Cookies. You can also find more information on the Cookies when you click the pop-up window "[name of the pop-up banner]".</p>
+                  <p>We have provided details of the types of Cookies that are used on our Site as well as other relevant and useful information on the Cookies. You can also find more information on the Cookies when you click the pop-up window &quot;[name of the pop-up banner]&quot;.</p>
                 </div>
                     </section></div>
                     
@@ -103,8 +104,8 @@ export default function ContactPage() {
                   <h3 className="col-xs-12">How do I refuse or withdraw my consent to the use of cookies?</h3>
                 </div>
                 <div className="content-section">
-                  <p className="marB30">If you do not want Cookies to be placed on your device, we suggest you to set your preferences regarding Cookies. By clicking "Cookie Preferences" on the bottom of each webpage, you can select the types of Cookies our Site uses. You can change your preferences at any time; you can also withdraw the consent you have previously given to us.</p>
-                  <p className="marB30">If you wish to remove previously-stored Cookies, you can manually delete the Cookies at any time. However, this will not prevent our Site from placing further Cookies on your device unless and until you adjust your "Cookie Preferences" choice as described above.</p>
+                  <p className="marB30">If you do not want Cookies to be placed on your device, we suggest you to set your preferences regarding Cookies. By clicking &quot;Cookie Preferences&quot; on the bottom of each webpage, you can select the types of Cookies our Site uses. You can change your preferences at any time; you can also withdraw the consent you have previously given to us.</p>
+                  <p className="marB30">If you wish to remove previously-stored Cookies, you can manually delete the Cookies at any time. However, this will not prevent our Site from placing further Cookies on your device unless and until you adjust your &quot;Cookie Preferences&quot; choice as described above.</p>
                 </div>
             </section></div>
 
@@ -114,7 +115,7 @@ export default function ContactPage() {
                   <h3 className="col-xs-12">Contact Details</h3>
                 </div>
                 <div className="content-section">
-                  <p className="marB30">If you have any other questions or comments about our Cookie Policy, please <strong><a href="/contacts">contact us</a></strong></p>
+                  <p className="marB30">If you have any other questions or comments about our Cookie Policy, please <strong><NextLink href="/contacts">contact us</NextLink></strong></p>
                   <p>Adaptivise</p>
                   <p>Public Relations Department</p>
                   <p style={{fontSize: 16}}>403-505 Cook Street, Victoria, BC, Canada</p>          

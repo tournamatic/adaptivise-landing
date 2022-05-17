@@ -1,7 +1,8 @@
+import NextLink from 'next/link';
 import styled from 'styled-components';
+import Logo from 'components/Logo';
 import Page from 'components/Page';
 import RichText from 'components/RichText';
-import Logo from 'components/Logo';
 
 export default function ContactPage() {
   return (
@@ -16,7 +17,7 @@ export default function ContactPage() {
           <h3 className="col-xs-12"> Adaptivise WEBSITE Terms of Use </h3>
           </div>
           <div className="content-section">
-          <p>These Terms of Use (the "Terms", "Terms of Use") applies to <strong><a href="https://adaptivise.com/">https://adaptivise.com/</a></strong>, the website (our "Service", our “Site”) operated by Adaptivise (“Adaptivise”,"us", "we", or "our"). Please read these Terms of Use carefully before you start to use our Site, as these will apply to your use of our Site. By using our Site, you confirm that you accept these Terms of Use and that you agree to comply with them. If you do not agree to these Terms of Use, please refrain from using our Site. </p>
+          <p>These Terms of Use (the &quot;Terms&quot;, &quot;Terms of Use&quot;) applies to <strong><NextLink href="https://adaptivise.com/">https://adaptivise.com/</NextLink></strong>, the website (our &quot;Service&quot;, our “Site”) operated by Adaptivise (“Adaptivise”,&quot;us&quot;, &quot;we&quot;, or &quot;our&quot;). Please read these Terms of Use carefully before you start to use our Site, as these will apply to your use of our Site. By using our Site, you confirm that you accept these Terms of Use and that you agree to comply with them. If you do not agree to these Terms of Use, please refrain from using our Site. </p>
           <p>&nbsp;</p>
           <p>We reserve the right, at our sole discretion, to change, modify, add or remove portions of these Terms of Use, at any time. It is your responsibility to check these Terms of Use periodically for changes. Your continued use of our Site following the posting of changes will mean that you accept and agree to the changes. As long as you comply with these Terms of Use, we grant you a personal, non-exclusive, non-transferable, limited privilege to enter and use our Site.
           </p>
@@ -39,7 +40,7 @@ export default function ContactPage() {
           <ul className="privacy-terms">
               <li>
               <span>2. Personal Information </span>
-              <p className="policy-one termofusefont">Our Privacy Policy applies to use of our Site, and the Terms are made a part of these Terms of Use by this reference. To view Our Privacy Policy, click here (<strong><a href="/privacy-policy">Privacy statement</a></strong> or <strong><a href="/gdpr-policy">Privacy statement for GDPR</a></strong>). </p>
+              <p className="policy-one termofusefont">Our Privacy Policy applies to use of our Site, and the Terms are made a part of these Terms of Use by this reference. To view Our Privacy Policy, click here (<strong><NextLink href="/privacy-policy">Privacy statement</NextLink></strong> or <strong><NextLink href="/gdpr-policy">Privacy statement for GDPR</NextLink></strong>). </p>
               </li>
           </ul>
           <div>
@@ -51,7 +52,7 @@ export default function ContactPage() {
           <ul className="privacy-terms">
               <li>
               <span>3. Cookies</span>
-              <p className="policy-one termofusefont">Our Cookie Policy applies to use of our Site, and the Terms are made a part of these Terms of Use by this reference. To view Our Cookie Policy, click <strong><a href="/cookies-policy">here</a></strong>.</p>
+              <p className="policy-one termofusefont">Our Cookie Policy applies to use of our Site, and the Terms are made a part of these Terms of Use by this reference. To view Our Cookie Policy, click <strong><NextLink href="/cookies-policy">here</NextLink></strong>.</p>
               </li>
           </ul>
           <div>
@@ -87,7 +88,7 @@ export default function ContactPage() {
                   </li>
                   <li>
                   <span>6.</span>
-                  <p>distribute advertising or unsolicited e-mails (so-called "spam") or inaccurate warnings of viruses, defects or similar material and the User shall not solicit or request the participation in any lottery, snowball system, chain letter, pyramid game or similar activity.</p>
+                  <p>distribute advertising or unsolicited e-mails (so-called &quot;spam&quot;) or inaccurate warnings of viruses, defects or similar material and the User shall not solicit or request the participation in any lottery, snowball system, chain letter, pyramid game or similar activity.</p>
                   </li>
               </ul>
               <p>&nbsp;</p>
@@ -177,7 +178,7 @@ export default function ContactPage() {
                   <span>7.</span>
                   <p>You must use the following HTML code and refer to us as either “Adaptivise” or “Adaptivise Corporation” when using the Corporate Name to link to our website.</p>
                   <p>
-                  &lt;a href="https://adaptivise.com/"&gt;Adaptivise&lt;/a&gt;
+                  &lt;a href=&quot;https://adaptivise.com/&quot;&gt;Adaptivise&lt;/a&gt;
                   </p>
                   </li>
               </ul>
@@ -206,7 +207,7 @@ export default function ContactPage() {
               <p>We will not be liable to you for any loss or damage, arising out of or in connection with your access to, or use of our Site, its features or any information made available through our Site, even if advised in advance of such damages or losses, to the extent permitted by applicable law.
               </p>
               <p>&nbsp;</p>
-              <p><strong>WE DO NOT PROMISE THAT OUR SITE OR ANY CONTENT, SERVICE OR FEATURE OF OUR SITE WILL BE ERROR-FREE OR UNINTERRUPTED, OR THAT ANY DEFECTS WILL BE CORRECTED, OR THAT YOUR USE OF OUR SITE WILL PROVIDE SPECIFIC RESULTS. OUR SITE AND ITS CONTENT ARE DELIVERED ON AN "AS-IS" AND "AS-AVAILABLE" BASIS. ALL INFORMATION PROVIDED ON OUR SITE IS SUBJECT TO CHANGE WITHOUT NOTICE. WE CANNOT ENSURE THAT ANY FILES OR OTHER DATA YOU DOWNLOAD FROM OUR SITE WILL BE FREE OF VIRUSES OR CONTAMINATION OR DESTRUCTIVE FEATURES. WE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING ANY WARRANTIES OF ACCURACY, NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. WE DISCLAIM ANY AND ALL LIABILITY FOR THE ACTS, OMISSIONS AND CONDUCT OF ANY THIRD PARTIES IN CONNECTION WITH OR RELATED TO YOUR USE OF OUR SITE AND/OR ANY OUR SERVICES. YOU ASSUME TOTAL RESPONSIBILITY FOR YOUR USE OF OUR SITE AND ANY LINKED SITES. YOUR SOLE REMEDY AGAINST US FOR DISSATISFACTION WITH OUR SITE OR ANY CONTENT IS TO STOP USING OUR SITE OR ANY SUCH CONTENT. THIS LIMITATION OF RELIEF IS A PART OF THE BARGAIN BETWEEN THE PARTIES.
+              <p><strong>WE DO NOT PROMISE THAT OUR SITE OR ANY CONTENT, SERVICE OR FEATURE OF OUR SITE WILL BE ERROR-FREE OR UNINTERRUPTED, OR THAT ANY DEFECTS WILL BE CORRECTED, OR THAT YOUR USE OF OUR SITE WILL PROVIDE SPECIFIC RESULTS. OUR SITE AND ITS CONTENT ARE DELIVERED ON AN &quot;AS-IS&quot; AND &quot;AS-AVAILABLE&quot; BASIS. ALL INFORMATION PROVIDED ON OUR SITE IS SUBJECT TO CHANGE WITHOUT NOTICE. WE CANNOT ENSURE THAT ANY FILES OR OTHER DATA YOU DOWNLOAD FROM OUR SITE WILL BE FREE OF VIRUSES OR CONTAMINATION OR DESTRUCTIVE FEATURES. WE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING ANY WARRANTIES OF ACCURACY, NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. WE DISCLAIM ANY AND ALL LIABILITY FOR THE ACTS, OMISSIONS AND CONDUCT OF ANY THIRD PARTIES IN CONNECTION WITH OR RELATED TO YOUR USE OF OUR SITE AND/OR ANY OUR SERVICES. YOU ASSUME TOTAL RESPONSIBILITY FOR YOUR USE OF OUR SITE AND ANY LINKED SITES. YOUR SOLE REMEDY AGAINST US FOR DISSATISFACTION WITH OUR SITE OR ANY CONTENT IS TO STOP USING OUR SITE OR ANY SUCH CONTENT. THIS LIMITATION OF RELIEF IS A PART OF THE BARGAIN BETWEEN THE PARTIES.
               </strong>
               </p>
               <p>&nbsp;</p>
